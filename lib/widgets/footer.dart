@@ -21,7 +21,7 @@ class _FooterState extends State<Footer> {
           title: Text('支払い'),
         ),
         BottomNavigationBarItem(
-          icon: FaIcon(Icons.label_outline),
+          icon: Icon(Icons.label_outline),
           title: Text('パス')
         ),
       ],
