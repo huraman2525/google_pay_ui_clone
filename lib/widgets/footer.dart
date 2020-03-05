@@ -25,7 +25,6 @@ class _FooterState extends State<Footer> {
           title: Text('パス')
         ),
       ],
-      
     );
   }
 }

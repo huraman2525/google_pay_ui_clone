@@ -12,7 +12,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: Header(),
-        body: Text('HomeScreen'),
+        body: Container(
+          alignment: Alignment.center,
+          child: Text('HomeScreen',),
+        ),
         bottomNavigationBar: Footer(),
       ),
     );
